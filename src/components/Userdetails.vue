@@ -74,6 +74,8 @@ export default {
    .strong {
      margin-left: 15px;
      font-weight: 200;
+     text-transform: capitalize;
+     font-size: 18px;
    }
 
   @media screen and (max-width: 650px) {

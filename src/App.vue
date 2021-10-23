@@ -56,7 +56,7 @@ export default {
     top: 50%;
     margin-top: -313.5px; 
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 20px 30px #0e0e0e26;
+    box-shadow: 0px 10px 20px #0e0e0e26;
 }
 
   @media screen and (max-width: 1400px) {
