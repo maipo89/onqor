@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+   
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=block');
+
    .filled-form {
      width: 528px;
      height: 435px;
@@ -44,6 +47,7 @@ export default {
      color: white;
      margin: 0;
      padding: 0;
+     text-transform: capitalize;
    }
 
    .fun-fact-container {
@@ -56,6 +60,7 @@ export default {
      white-space: pre-wrap;
      margin-top: 10px;
      overflow: auto;
+     font-weight: 100;
    }
 
    .fun-fact-container:hover {
@@ -71,11 +76,10 @@ export default {
      margin: 17px 0 17px 0;
    }
 
-   .strong {
-     margin-left: 15px;
-     font-weight: 200;
-     text-transform: capitalize;
-     font-size: 18px;
+   strong {
+     margin-left: 5px;
+     font-weight: 700;
+     font-size: 16px;
    }
 
   @media screen and (max-width: 650px) {
@@ -111,7 +115,7 @@ export default {
      margin: 12px 0 12px 0;
    }
 
-   .strong {
+   strong {
      margin-left: 12px;
      font-size: 13px;
    }

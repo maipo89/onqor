@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=block');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=block');
 
     .header {
         width: 644px;
