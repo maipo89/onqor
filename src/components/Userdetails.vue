@@ -116,7 +116,7 @@ export default {
    }
 
    strong {
-     margin-left: 12px;
+     margin-left: 5px;
      font-size: 13px;
    }
 
