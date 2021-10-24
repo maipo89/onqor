@@ -77,6 +77,54 @@ export default {
       width: 130%;
     }
   }
+  
+  /* Ipad Pro Portrait */
+
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    .background {
+      height: 1366px !important;
+    }
+
+    .svg {
+      height: 100% !important;
+    }
+  }
+
+  /* Ipad Pro Landscape */
+
+  @media only screen and (min-device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    .background {
+      height: 1024px !important;
+    }
+
+    .svg {
+      height: 100% !important;
+    }
+  }
+
+  /* Ipad Portrait */
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .background {
+      height: 1024px !important;
+    }
+
+    .svg {
+      height: 100% !important;
+    }
+  }
+
+  /* Ipad Landscape */
+
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+    .background {
+      height: 768px !important;
+    }
+
+    .svg {
+      height: 100% !important;
+    }
+  }
 
   @media screen and (max-width: 820px) {
     .svg {
@@ -106,6 +154,8 @@ export default {
       width: 200%;
     }
   }
+
+  /* Iphone X */
 
   @media screen and (max-width: 375px) {
     .main-window {

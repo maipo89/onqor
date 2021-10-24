@@ -231,6 +231,56 @@ export default {
       font-size: 15px;
     }
   }
+
+    /* Ipad Pro Portrait */
+
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    @media (hover: none) {
+
+      .input:hover, .textarea:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+      }
+    }
+  }
+
+  /* Ipad Pro Landscape */
+
+  @media only screen and (min-device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    @media (hover: none) {
+
+      .input:hover, .textarea:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+      }
+    }
+  }
+
+  /* Ipad Portrait */
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    @media (hover: none) {
+
+      .input:hover, .textarea:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+      }
+    }
+  }
+
+  /* Ipad Landscape */
+
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+    @media (hover: none) {
+
+      .input:hover, .textarea:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+      }
+    }
+  }
+
+  /* Iphone X */
   
   @media screen and (max-width: 375px) {
     .input, .focus, .textarea, .focus-textarea {
