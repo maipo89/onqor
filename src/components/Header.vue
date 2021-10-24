@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       subtitle: "Welcome to the",
-      title: "Onquor Code Test",
+      title: "Onqor Code Test",
       hideComponent: false
   }},
   methods: {
