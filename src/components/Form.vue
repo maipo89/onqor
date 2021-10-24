@@ -280,6 +280,18 @@ export default {
     }
   }
 
+  /* Iphone X Landscape */
+
+  @media all and (device-width: 812px) and (device-height: 375px) and (orientation: landscape) {
+    @media (hover: none) {
+
+      .input:hover, .textarea:hover {
+        background-color: inherit !important;
+        color: inherit !important;
+      }
+    }
+  }
+
   /* Iphone X */
   
   @media screen and (max-width: 375px) {
